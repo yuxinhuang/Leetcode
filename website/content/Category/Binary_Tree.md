@@ -16,13 +16,14 @@ class TreeNode(object):
 ### 思路
 
 DFS Preorder Top->Bottom Left->Right
-
+```
      1
     / \
    2   5
   / \
  3   4
 
+```
 - **stack先放进root,所以先确保root is not None**，while（stack）
 
 - while 内部 **三个if， 先右后左**
@@ -41,13 +42,14 @@ DFS Preorder Top->Bottom Left->Right
 ### 思路
 
 DFS Inorder Left->Node->Right
-
+```
      4
     / \
    2   5
   / \
  1   3
 
+```
 **因为我们一直从stack里面append，不需要if， 只用一个while curr来检测None**
 
 - curr指针到root
@@ -71,12 +73,13 @@ DFS Inorder Left->Node->Right
 左右中
 ### 思路
 DFS Postorder Bottom->Top Left->Right
-
+```
      5
     / \
    3   4
   / \
  1   2
+```
 
 按照顺序中左右，然后倒序
 
@@ -98,12 +101,13 @@ DFS Postorder Bottom->Top Left->Right
 ### 思路
 BFS Left->Right Top->Bottom
 
+```
      1
     / \
    2   3
   / \
  4   5
-
+```
 Let's keep nodes of each tree level in the queue structure, which typically orders elements in a **FIFO (first-in-first-out)** manner. In Java one could use LinkedList implementation of the Queue interface. In Python using Queue structure would be an overkill since it's designed for a safe exchange between multiple threads and hence requires locking which leads to a performance loose. In Python the queue implementation with a fast atomic ``append()`` and ``popleft()`` is ``deque``.
 
 The zero level contains only one node root. The algorithm is simple :
