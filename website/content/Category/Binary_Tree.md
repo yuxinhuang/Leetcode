@@ -97,7 +97,7 @@ DFS Postorder Bottom->Top Left->Right
 
 * [145. Binary Tree Postorder Traversal](https://github.com/yuxinhuang/Leetcode/blob/main/website/content/ChapterFour/0100~0199/0145.Binary-Tree-Postorder-Traversal.md)
 
-# Level-order Traversal
+## Level-order Traversal
 ### 思路
 BFS Left->Right Top->Bottom
 
@@ -127,3 +127,7 @@ The zero level contains only one node root. The algorithm is simple :
     - Go to the next level level++.
 
 * [102. Binary Tree Levelorder Traversal](https://github.com/yuxinhuang/Leetcode/blob/main/website/content/ChapterFour/0100~0199/0102.Binary-Tree-Level-Order-Traversal.md/)
+
+### Exercise
+
+* [104. Maximum Depth of Binary Tree](https://github.com/yuxinhuang/Leetcode/blob/main/website/content/ChapterFour/0100~0199/0104.Maximum-Depth-of-Binary-Tree.md/)
