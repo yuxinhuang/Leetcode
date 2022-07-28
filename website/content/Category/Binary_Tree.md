@@ -128,6 +128,6 @@ The zero level contains only one node root. The algorithm is simple :
 
 * [102. Binary Tree Levelorder Traversal](https://github.com/yuxinhuang/Leetcode/blob/main/website/content/ChapterFour/0100~0199/0102.Binary-Tree-Level-Order-Traversal.md/)
 
-### Exercise
+## Exercise
 
 * [104. Maximum Depth of Binary Tree](https://github.com/yuxinhuang/Leetcode/blob/main/website/content/ChapterFour/0100~0199/0104.Maximum-Depth-of-Binary-Tree.md/)
