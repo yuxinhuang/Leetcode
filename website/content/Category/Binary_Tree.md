@@ -69,7 +69,7 @@ DFS Inorder Left->Node->Right
 * [94. Binary Tree Inorder Traversal](https://github.com/yuxinhuang/Leetcode/blob/main/website/content/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md)
 
 
-# Post-order Travresal
+## Post-order Travresal
 左右中
 ### 思路
 DFS Postorder Bottom->Top Left->Right
